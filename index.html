@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+    <script src="./js/ui.js" defer></script>
+    <script src="./js/reg.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="#">News</a>
+        <a href="#">About</a>
+      </div>
+      <div class="welcome">
+        <div class="welcome-banner">
+          <div>
+            <h1>
+              Welcome to <br />
+              IT Academy!
+            </h1>
+            <a href="#join2" id="join" class="join_button">Join Now</a>
+          </div>
+          <dotlottie-player
+            src="https://lottie.host/2529ad68-0b5a-4895-ae53-9c7223aaa328/AahWUziiD1.lottie"
+            background="transparent"
+            speed="1"
+            style="width: 400px; height: 400px"
+            loop
+            autoplay
+          ></dotlottie-player>
+        </div>
+      </div>
+      <div class="main_content">
+        <h2>About us</h2>
+        <p>
+          This e-learning website is dedicated to providing high-quality IT
+          learning resources for individuals seeking to enhance their skills and
+          knowledge in the ever-evolving world of technology. Rooted in the
+          principles of SDG 4 – Quality Education, we strive to create an
+          accessible and inclusive platform that empowers learners of all
+          backgrounds to achieve their educational and professional goals.
+        </p>
+        <p>
+          Our commitment lies in offering user-friendly features and a
+          well-structured content framework that simplifies the learning
+          process. We believe that education is a fundamental right, and through
+          this platform, we aim to contribute to a more knowledgeable and
+          skilled global community.
+        </p>
+      </div>
+
+      <div class="courses">
+        <h2>Explore our courses</h2>
+        <div class="course_cards">
+          <div class="cards">
+            <div class="thumbnail">
+              <img
+                src="/assets/web.jpg"
+                style="max-width: 100%; height: 100%"
+              />
+            </div>
+
+            <a href="web_development.html">Web Development</a>
+          </div>
+
+          <div class="cards">
+            <div class="thumbnail">
+              <img
+                src="/assets/programming.jpg"
+                style="max-width: 100%; height: 100%"
+              />
+            </div>
+
+            <a href="web_development.html">Java Programming</a>
+          </div>
+          <div class="cards">
+            <div class="thumbnail">
+              <img
+                src="/assets/computing.png"
+                style="max-width: 100%; height: 100%"
+              />
+            </div>
+
+            <a href="web_development.html">Computer Hardware</a>
+          </div>
+
+          <!-- 
+        <a href="#">
+        <div class="cards">
+          <div class="thumbnail"><img src="programming.jpg"style="max-width: 100%; height: 100%;"></div>
+          <p>Intro to Programming</p>
+        </div>
+      </a>
+
+
+        <a href="#">
+        <div class="cards">
+          <div class="thumbnail"><img src="computing.png"style="max-width: 100%; height: 100%;"></div>
+          <p>Intro to Computing</p>
+        </div>
+      </a>
+
+ -->
+        </div>
+      </div>
+
+      <div id="form">
+        <h1>Register Your Interest</h1>
+
+        <form>
+          <div class="input-row">
+            <div>
+              <label for="firstName">First name: </label>
+              <input type="text" id="firstName" required />
+            </div>
+            <div>
+              <label for="lastName">Last name:</label>
+              <input type="text" id="lastName" required />
+            </div>
+          </div>
+          <div class="input-row">
+            <div>
+              <label for="number">Contact No:</label>
+              <input type="number" id="number" required />
+            </div>
+            <div>
+              <label for="email">E-mail:</label>
+              <input type="mail" id="email" required />
+            </div>
+          </div>
+          <div id="response"></div>
+          <button type="button" onclick="formSubmission()">Register</button>
+        </form>
+      </div>
+
+      <footer class="site-footer">
+        <div>
+          <div>
+            <div>
+              <h6>About IT Academy</h6>
+              <p>
+                is an initiative to help the upcoming programmers with the code.
+                Scanfcode focuses on providing the most efficient code or
+                snippets as the code wants to be simple. We will help
+                programmers build up concepts in different programming languages
+                that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript,
+                PHP, Android, SQL and Algorithm.
+              </p>
+            </div>
+            <br />
+            <div>
+              <h6>Available Courses</h6>
+              <ul class="footer-links">
+                <li>
+                  <a href="./web_development.html">Web Development</a>
+                </li>
+                <li>
+                  <a href="#"> Java Programming</a>
+                </li>
+                <li>
+                  <a href="#">Computer Hardware</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

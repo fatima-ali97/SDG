@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Development Course</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+  
+  <script src="./js/lesson.js" defer></script>
+</head>
+<body onload="openSection('intro')">
+  <div class="container">
+    <header class="web-header">
+      <div class="left_header">
+        <button class="back"><a href="page2.html">Back</a></button>
+      </div>
+      <div class="center_header">
+        <h1>Web Development</h1>
+      </div>
+      <div class="right_header">
+        <span id="user"></span>
+      </div>
+    </header>
+
+    <div class="main_body">
+      <div class="lesson">
+        <h1 id="title"></h1>
+      </div> 
+
+      <div class="les_container">
+        <div class="les_buttons">
+          <button onclick="openSection('intro');">Intro</button>
+          <button onclick="openSection('l1');">Lesson 1</button>
+          <button onclick="openSection('l2');">Lesson 2</button>
+          <button onclick="openSection('l3');">Lesson 3</button>
+          <button onclick="openSection('q1');">Quiz!</button>
+          <button onclick="openSection('l4');">Lesson 4</button>
+          <button onclick="openSection('l5');">Lesson 5</button>
+          <button onclick="openSection('f1');">Final Review</button>
+        </div>
+
+        <div class="les_description">
+          <div id="desc" class="les_text"></div>
+          <div id="video" class="video"></div>
+          <div id="text" class="les_text"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="logo2">
+        <img src="logo.png" alt="Logo" />
+        <h2>CodeQuest</h2>
+      </div>
+      <div class="copyright">
+        <p>copyright &copy; 2025 CodeQuest.com</p>
+        <p>All rights reserved.</p>
+      </div>
+      <div class="socials">
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-x-twitter"></i>
+        <i class="fab fa-facebook"></i>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,246 @@
+h1 {
+  color: #7478ab;
+  text-align: center;
+  margin-top: 30px;
+}
+.courses2 {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.course_cards2 {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #b9d5f8;
+  border-radius: 10px;
+  margin: 0 10px;
+  padding: 0 12px;
+  color: #4a4b4b;
+}
+
+.cards_text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-height: 250px;
+}
+
+.cards_text h3 {
+  font-size: 25px;
+  margin: 0;
+  margin-top: 1.5rem;
+}
+
+.cards_text button {
+  padding: 0.5rem 1rem;
+  background-color: #7478ab;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 12px;
+  font-weight: bolder;
+  cursor: pointer;
+  align-items: center;
+  align-self: center;
+  width: 200px;
+  margin-bottom: 3rem;
+}
+
+.pic {
+  width: 320px;
+  height: 250px;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cards_text a {
+  text-decoration: none;
+  color: #0c725be6;
+  align-self: center;
+}
+
+.web-header {
+  height: 100px;
+  background-color: #50508cae;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.back {
+  border-radius: 13px;
+  padding: 0.4rem;
+  width: 7rem;
+  font-size: larger;
+  background-color: #cfd3f8;
+  border: none;
+  cursor: pointer;
+  margin-left: 1rem;
+  left: 1rem;
+  position: absolute;
+}
+
+.back a {
+  text-decoration: none;
+  color: #7478ab;
+}
+
+.back:hover {
+  background-color: #bfc5f5;
+}
+
+.text {
+  color: aliceblue;
+  font-size: 25px;
+  font-size: 25px;
+  position: absolute;
+}
+
+.lesson {
+  color: #7478ab;
+  margin-top: 2px;
+  justify-content: center;
+  align-self: self-start;
+  position: absolute;
+  font-size: 20px;
+  justify-content: center;
+  align-self: self-start;
+  position: absolute;
+  font-size: 20px;
+}
+
+.les_container {
+  margin-top: 5rem;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10rem;
+  gap: 10rem;
+  padding: 2rem;
+}
+
+.les_buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 6rem;
+}
+
+.les_buttons button:hover {
+  background-color: #04d3c9;
+}
+
+.les_buttons button {
+  background-color: #0c725be6;
+  background-color: #03e3d8;
+  background-color: #03e3d8;
+  border: none;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  height: 50px;
+  width: 300px;
+  font-size: 25px;
+
+  height: 50px;
+  width: 300px;
+  font-size: 25px;
+}
+
+.lesson-box {
+  background-color: #0b5c49;
+  padding: 2rem;
+  border-radius: 15px;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  min-width: 300px;
+  min-height: 400px;
+}
+
+.a {
+  text-decoration: none;
+}
+.les_description {
+  height: 700px;
+  width: 600px;
+  flex-grow: 1;
+  background-color: #0c725be6;
+  padding: 1rem;
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.les_description p {
+  margin-left: 2rem;
+  line-height: 2rem;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+
+#user {
+  color: aliceblue;
+  font-size: 25px;
+}
+
+.web-header {
+  height: 100px;
+  background-color: #50508cae;
+  width: 98.3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  position: relative;
+}
+
+.left_header,
+.center_header,
+.right_header {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left_header {
+  justify-content: flex-start;
+}
+
+.right_header {
+  justify-content: flex-end;
+}
+
+.center_header h1 {
+  margin: 0;
+  font-size: 35px;
+  color: white;
+}
+
+#user {
+  color: aliceblue;
+  font-size: 25px;
+  margin-right: 2rem;
+}
+
+.header_center h2 {
+  color: aliceblue;
+  font-size: 45px;
+}

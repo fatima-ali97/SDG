@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all ease-in 0.3s;
+}
+html {
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #f2f8fc;
+}
+a {
+  text-decoration-line: none;
+}
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  height: 10%;
+  margin: 10px 10px;
+  padding: 15px;
+  background-color: #d0e6ff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header a {
+  color: #4a4b4b;
+}
+
+.header a:visited {
+  color: #4a4b4b;
+}
+
+.quiz-option {
+  background-color: #4d4d80;
+  border-left: 6px solid #4d4d80;
+  padding: 15px 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1.1em;
+}
+
+.quiz-option:hover {
+  background-color: #ccffcc;
+}
+
+.quiz-option.correct {
+  background-color: #a5f0a5 !important;
+  border-left-color: #1e7e34;
+}
+
+.quiz-option.incorrect {
+  background-color: #ffc9c9 !important;
+  border-left-color: #dc3545;
+}
+
+.welcome {
+  text-align: center;
+
+  color: #50508cae;
+  font-size: 30px;
+}
+.welcome h1 {
+  text-align: right;
+  margin-bottom: 50px;
+  margin-left: 200px;
+}
+.welcome-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.join_button {
+  background-color: #4cb1ff;
+
+  color: aliceblue;
+  padding: 10px 40px;
+
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 30px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.join_button:hover {
+  background-color: #32a3fa;
+}
+
+.main_content {
+  text-align: center;
+
+  padding-top: 3rem;
+  color: #7478ab;
+  padding-bottom: 1rem;
+}
+
+.main_content h2 {
+  margin-top: 0;
+  font-size: 40px;
+}
+
+.main_content p {
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 18px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.courses {
+  margin-top: 3rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+.courses h2 {
+  margin-top: 0;
+  color: #7478ab;
+  font-size: 40px;
+}
+
+.course_cards {
+  padding-top: 2rem;
+
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.course_cards a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #4a4b4b;
+}
+
+.cards {
+  background-color: #d0e6ff;
+
+  padding: 10px;
+  border-radius: 8px;
+  width: 20%;
+
+  color: #acb0e8;
+}
+
+.thumbnail {
+  height: 200px;
+  background-color: rgb(50, 250, 230);
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+#form {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#form h1 {
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-row {
+  display: flex;
+
+  position: relative;
+}
+
+.input-row div {
+  padding: 35px 20px 0px 60px;
+}
+label {
+  color: black;
+  position: absolute;
+  top: 1.5rem;
+  transition: 0.25s ease;
+  font-size: 0.6em;
+  font-weight: 700;
+}
+
+input,
+textarea,
+select {
+  border: none;
+  border-bottom: solid grey 1px;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 10px 0px;
+
+  color: #471a87;
+}
+
+button {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #471a87;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  border: none;
+  margin-top: 20px;
+}
+
+#response {
+  color: red;
+}
+
+/* ============================= */
+.site-footer {
+  background-color: #26272b;
+
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+}
+.site-footer div {
+  margin: 0 10px;
+}
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+.site-footer a {
+  color: #737373;
+}
+.site-footer a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+.footer-links li {
+  display: block;
+}
+.footer-links a {
+  color: #737373;
+}
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links.inline li {
+  display: inline-block;
+}
