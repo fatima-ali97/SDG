@@ -72,28 +72,32 @@ a {
 .welcome h1 {
   text-align: left;
   margin-bottom: 50px;
-  margin-left: 200px;
 }
 .welcome-banner {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
+.welcome-col-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .join_button {
-  background-color: #4cb1ff;
+  background-color: #7478ab;
 
   color: aliceblue;
   padding: 10px 40px;
 
   border-radius: 5px;
   cursor: pointer;
-  font-size: 30px;
+  font-size: 20px;
   text-decoration: none;
   margin-top: 10px;
 }
 
 .join_button:hover {
-  background-color: #32a3fa;
+  background-color: #666993;
 }
 
 .main_content {
@@ -136,9 +140,9 @@ h2 {
 }
 
 .course_cards a {
-  text-decoration: none;
-  font-size: 24px;
+  font-size: 18px;
   color: #4a4b4b;
+  font-weight: 600;
 }
 
 .cards {
