@@ -1,0 +1,73 @@
+a {
+  color: #4a4b4b;
+}
+.lesson-header {
+  color: #4a4b4b;
+}
+.lesson-header h1 {
+  text-align: center;
+}
+
+.les_container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.les_buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.les_buttons button:hover {
+  background-color: #525479;
+}
+
+.les_buttons button,
+.back {
+  text-align: center;
+  background-color: #7478ab;
+
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  height: 50px;
+  width: 300px;
+  font-size: 24px;
+}
+.back {
+  background-color: #cfd3f8;
+  color: #4a4b4b;
+}
+
+.back:hover {
+  background-color: #bfc5f5;
+}
+
+.les_description {
+  height: 700px;
+  width: 600px;
+  flex-grow: 1;
+  background-color: #bfc5f5;
+  padding: 1rem;
+  border-radius: 15px;
+  color: #4a4b4b;
+  font-size: 20px;
+}
+p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+}
